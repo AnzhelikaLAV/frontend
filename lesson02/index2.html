@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form method="post">
+        <input type="text" name="lastName" value="hello" disabled>
+        <br>
+        <br>
+        <label> введите имя
+        <input type="text" name="lastName" value="hello" disabled>
+        </label>
+        <br>
+        <br>
+    <label for="lastName4">Введите имя 2</label>
+    <input type="text" name="lastName4" id="lastName4">
+        <br>
+        <br>
+        <label for="lastName4">Введите имя 2</label>
+      
+<!-- пароль, email, числа, цвет, дата -->
+<input type="password" name="lastName5">
+<br>
+<br>
+<input type="email" name="lastName6">
+<br>
+<br>
+<input type="number" name="lastName6">
+<br>
+<br>
+<input type="color" name="lastName6">
+<br>
+<br>
+<input type="date" name="lastName6">
+<br>
+<!-- text area -->
+<textarea name="info" cols="30" rows="10" maxlength="5"
+    placeholder="Введите информацию , макс длина 5 символов"></textarea>
+        <input type="text" name="lastName" required placeholder="введите имя">
+    <!-- <input type="submit"> -->
+    <button type="submit">отправить</button>
+<!-- text area -->
+<textarea name="info" cols="30" rows="10" maxlength="5"
+    placeholder="Введите информацию , макс длина 5 символов"></textarea>
+<!-- select - выпадающий список -->
+Выбирите город:
+<select name="city" multiple>
+    <option value="Minsk">Минск</option>
+    <option value="Almaty">Алматы</option>
+    <option value="Astana">Астана</option>
+    <!-- Радиокнопки -->
+    <label>
+        да
+        <input type="radio" name="yes_no" value="yes">
+    </label>
+    <label>
+        нет
+        <input type="radio" name="yes_no" value="no" checked>
+    </label>
+    <label>
+        может быть
+        <input type="radio" name="yes_no" value="maybe">
+    </label>
+</select>
+</form>
+</body>
+</html>
