@@ -1,0 +1,47 @@
+body {
+  background-image: url(./running-6252827_1280.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.header-container {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.header-nav ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  display: flex;
+  justify-content: flex-end;
+  gap: 10px;
+}
+
+h1 {
+  color: rgb(35, 39, 38);
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.text {
+  display: block;
+  color: rgb(35, 39, 38);
+  width: 500px;
+  height: 40px;
+  font-weight: 900;
+  font-style: italic;
+}
+
+button {
+  background-color: #6e0728;
+  padding: 10px 20px;
+  color: #f4f1f8;
+  size: 240px;
+  font-size: 16px;
+  font-family: Arial, Helvetica, sans-serif;
+  border: none;
+  border-radius: 30px;
+  text-align: center;
+  width: 150px;
+  height: 40px;
+}
