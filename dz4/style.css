@@ -1,6 +1,6 @@
 * {
+  box-sizing: border-box;
   margin: 0;
-  padding: 0;
 }
 
 div {
@@ -16,36 +16,36 @@ ul {
   font-size: 40px;
   font-style: italic;
   text-align: center;
-  margin-right: 30px;
   border: 2px;
 }
 
 .user1 {
-  height: 500px;
-  width: 400px;
   color: blue;
   background-color: #f1f90b;
   border: solid blue;
   border-radius: 10px;
   padding: 20px;
+  margin-right: 30px;
 }
 
 .user2 {
-  height: 500px;
-  width: 400px;
   color: #bd0e7d;
   background-color: #0abce9;
   border: dashed #bd0e7d;
   border-radius: 10px;
   padding: 20px;
+  margin-right: 30px;
 }
 
 .user3 {
-  height: 500px;
-  width: 400px;
   color: #f5ed05;
   background-color: #08db0b;
   border: dotted #f5ed05;
   border-radius: 10px;
   padding: 20px;
+}
+
+.box {
+  height: 500px;
+  width: 400px;
 }
