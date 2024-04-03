@@ -1,0 +1,125 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  font-size: 20px;
+}
+
+.div1 {
+  font-size: 0.5rem;
+}
+
+.div1 {
+  font-size: 1em;
+}
+
+.div1 {
+  width: 50%;
+  font-size: 50%;
+  background-color: yellow;
+}
+
+.main-container {
+  height: 100vh;
+  /* background-color: aqua; */
+}
+
+.div2 {
+  background-color: red;
+  border: 1px solid black;
+  display: inline;
+}
+
+.span1 {
+  border: 1px solid black;
+  display: block;
+}
+
+.div3 {
+  background-color: red;
+  display: inline-block;
+  height: 40px;
+}
+
+.div4 {
+  border: 5px solid black;
+  height: 30px;
+  box-sizing: border-box;
+  /* margin: 10px 10px 10px 10px; */
+  /* margin: 0 0 10px 0; */
+  margin-bottom: 10px;
+  margin-top: 10px;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+.div5 {
+  box-sizing: border-box;
+  background-color: yellow;
+  border: 1px solid red;
+  padding: 10px;
+  margin: 10px;
+}
+
+.span2 {
+  margin: 10px;
+  padding: 10px;
+}
+
+.div6 {
+  margin-top: 10px;
+  display: inline-block;
+  background-color: yellow;
+  margin-left: 30px;
+  margin-top: 40 px;
+  margin-bottom: 40px;
+}
+
+.wrapper1 {
+  border: 3px solid black;
+  margin: 30px;
+  margin-bottom: 30px;
+}
+
+.div-wrapper-span {
+  text-align: center;
+}
+
+.div7 {
+  border: 3px solid black;
+  /* height: 20px; */
+  overflow: scroll;
+}
+
+.div8 {
+  background-color: yellow;
+  border: 3px solid black;
+  margin-bottom: 30px;
+}
+
+.div9 {
+  margin-top: 100px;
+  background-color: gray;
+  border: 3px solid rgb(246, 9, 9);
+}
+
+.div10:hover {
+color: blue;
+font-weight: bold;
+cursor: pointer;
+background-color: green;
+}
+
+.div11:first-child {
+    color: blueviolet;
+}
+
+.div12::before {
+color: brown;
+content: 'hello';
+content: 'xxx';
+display: block;
+background-color: aliceblue;
+}
