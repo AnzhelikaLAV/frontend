@@ -14,17 +14,19 @@
    const productsList = document.getElementById("productsList");
    productsList.innerHTML = "";
    products.forEach((product) => {
+     // создает div для каждого продукта добавили класс продукт и вставляет текст  "Название - Цена: ... грн.".
      const productDiv = document.createElement("div");
      productDiv.classList.add("product");
      productDiv.textContent = `${product.name} - Цена: ${product.price} грн.`;
      productsList.appendChild(productDiv);
    });
  }
-
+// принимает максимальную цену и возвращает массив продуктов, цена которых не превышает заданную.
  function filterProductsByPrice(maxPrice) {
    return products.filter((product) => product.price <= maxPrice);
  }
-
+//увеличивает на 1000 вызывает filterProductsByPrice для фильтрации продуктов с учетом новой максимальной цены, 
+//затем вызывает renderProducts для обновления отображаемого списка.
  function increasePrice() {
    const priceInput = document.getElementById("priceInput");
    priceInput.value = parseInt(priceInput.value) + 1000;
@@ -32,17 +34,17 @@
    const filteredProducts = filterProductsByPrice(maxPrice);
    renderProducts(filteredProducts);
  }
-
+//  ссылки поле ввода 
  const priceInput = document.getElementById("priceInput");
  const increasePriceButton = document.getElementById("increasePriceButton");
-
+//обработчики событий
  priceInput.addEventListener("input", () => {
    const maxPrice = parseInt(priceInput.value);
-   const filteredProducts = filterProductsByPrice(maxPrice);
+   const filteredProducts = filterProductsByPrice(maxPrice); //кнопка для увеличения цены.
    renderProducts(filteredProducts);
  });
 
  increasePriceButton.addEventListener("click", increasePrice);
 
  
- renderProducts(products);
+ renderProducts(products);//для отображения всех продуктов изначально.
