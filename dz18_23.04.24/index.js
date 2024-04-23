@@ -47,8 +47,8 @@ Wizard.prototype.castSpell = function () {
 };
 
 // Создание персонажей
-var warrior = new Warrior("Conan", 100, 1, "Sword");
-var wizard = new Wizard("Gandalf", 100, 1, "Fireball");
+let warrior = new Warrior("Conan", 100, 1, "Sword");
+let wizard = new Wizard("Gandalf", 100, 1, "Fireball");
 
 // Вызов метода introduce для каждого персонажа
 warrior.introduce();
