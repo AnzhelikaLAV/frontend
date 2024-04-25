@@ -1,0 +1,30 @@
+ body {
+    background-image: url('https://oir.mobi/uploads/posts/2021-03/1616523418_47-p-neonovii-fon-50.jpg');
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+  }
+
+  #timer {
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 200px;
+    font-weight: bold;
+    color: #3a2e3b;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    animation: neon-glow 1s infinite alternate;
+  }
+
+  @keyframes neon-glow {
+    0% {
+      text-shadow: 0 0 10px #1eb6e0, 0 0 20px #4885be, 0 0 30px #2b878b, 0 0 40px #9caae4, 0 0 70px #c2d5ed, 0 0 80px #fff, 0 0 100px #fff, 0 0 150px #3498db, 0 0 200px #3498db;
+    }
+    100% {
+      text-shadow: 0 0 5px #7261c8, 0 0 10px #3f3c95, 0 0 15px #4c6ecb, 0 0 20px #fff, 0 0 35px #fff, 0 0 40px #fff, 0 0 50px #fff, 0 0 75px #3498db, 0 0 100px #3498db;
+    }
+  }
