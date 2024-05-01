@@ -1,27 +1,30 @@
-  body {
-            font-family: Arial, sans-serif;
-        }
-        .container {
-            text-align: center;
-            margin-top: 50px;
-        }
-        .fact {
-            margin-top: 20px;
-        }
-        .error {
-            color: red;
-            margin-top: 20px;
-        }
-        #getFactBtn {
-            padding: 10px 20px;
-            background-color: #4CAF50;
-            color: white;
-            border: none;
-            border-radius: 5px;
-            cursor: pointer;
-            font-size: 16px;
-            transition: background-color 0.3s;
-        }
-        #getFactBtn:hover {
-            background-color: #3e89c2;
-        }
+body {
+  font-family: Arial, sans-serif;
+  background-image: url(https://ichef.bbci.co.uk/ace/ws/800/cpsprodpb/13618/production/_112748397_ee65e1f0-8d39-4361-9a25-9e6fae54bd1f.jpg);
+  background-size:cover;
+}
+.container {
+  text-align: center;
+  margin-top: 50px;
+}
+.fact {
+  margin-top: 20px;
+  color: aliceblue;
+}
+.error {
+  color: red;
+  margin-top: 20px;
+}
+#getFactBtn {
+  padding: 10px 20px;
+  background-color: #4caf50;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+  transition: background-color 0.3s;
+}
+#getFactBtn:hover {
+  background-color: #3e89c2;
+}

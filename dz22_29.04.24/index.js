@@ -14,7 +14,7 @@ getFactBtn.addEventListener("click", () => {
       if (!response.ok) {
         throw new Error("Network response was not ok");
       }
-      return response.json();
+      return response.json(); //преобразуем ответ в json
     })
     .then((data) => {
       factDiv.textContent = data.fact;

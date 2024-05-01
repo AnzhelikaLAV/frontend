@@ -1,0 +1,74 @@
+body {
+  background-color: #92d6e7;
+  font-family: Arial, sans-serif;
+}
+
+.container {
+  max-width: 800px;
+  margin: 50px auto;
+  padding: 20px;
+  background-color: rgba(255, 255, 255, 0.8);
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+  text-align: center;
+}
+
+.search-form {
+  margin-bottom: 20px;
+  display: flex;
+}
+
+#universityNameInput {
+  flex: 1;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px 0 0 5px;
+  font-size: 16px;
+}
+
+#searchButton {
+  padding: 10px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+  margin-left: 5px;
+}
+
+.university {
+  margin-bottom: 20px;
+  padding: 20px;
+  background-color: #fff;
+  border-radius: 10px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease-in-out;
+}
+
+.university:hover {
+  transform: translateY(-5px);
+}
+
+.university h2 {
+  margin-top: 0;
+  font-size: 24px;
+  color: #333;
+}
+
+.university p {
+  margin: 10px 0;
+  color: #666;
+}
+
+.university a {
+  color: #007bff;
+  text-decoration: none;
+}
+
+.university a:hover {
+  text-decoration: underline;
+}
